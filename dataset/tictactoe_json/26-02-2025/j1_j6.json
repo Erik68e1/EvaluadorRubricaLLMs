@@ -1,0 +1,1234 @@
+[{
+  "_id": {
+    "$oid": "67c08f32f2d469a3466d2cdd"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"2\"]\nThis is a good opening move as it is the center of the board.",
+  "execution_time": 2.2089682999649085,
+  "timestamp": {
+    "$date": "2025-02-27T16:13:38.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f37f2d469a3466d2cdf"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"1\"]\nTrying to take the corner, and potentially set up a win.\n",
+  "execution_time": 1.8372117000399157,
+  "timestamp": {
+    "$date": "2025-02-27T16:13:43.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f42f2d469a3466d2ce1"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"1\"]\nCreating a two in a row in the second row and preparing for a potential win.",
+  "execution_time": 8.161499799985904,
+  "timestamp": {
+    "$date": "2025-02-27T16:13:54.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f48f2d469a3466d2ce3"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"3\"]\nBlocking the opponent's potential win on the first row and creating a potential win on the diagonal.\n",
+  "execution_time": 1.6006544000119902,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:00.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f4ef2d469a3466d2ce5"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"2\"]\nPreventing the opponent from winning in the first row by placing 'x' in the remaining cell and setting up potential column win.",
+  "execution_time": 2.8348592999973334,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:06.216Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f54f2d469a3466d2ce7"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"1\"]\nBlocking the opponent's potential win on the first column.  This also gives me two potential win scenarios (diagonal and bottom row).\n",
+  "execution_time": 1.777491300017573,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:12.260Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f5bf2d469a3466d2ce9"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"3\"]\nCompleting the second row to win the game.",
+  "execution_time": 3.1529065999784507,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:19.324Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f61f2d469a3466d2ceb"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "o",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]\nI lost.  This was my only remaining move, but it doesn't create a win condition.  Opponent already won on previous turn.\n",
+  "execution_time": 2.0483777999761514,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:25.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f66f2d469a3466d2ced"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]\nI lost because the opponent won on the previous turn by completing the second row. My move was just the last available move and did not change the outcome.",
+  "execution_time": 1.8519192000385374,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:30.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f82f2d469a3466d2cef"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"3\"]\nReason: Blocking the opponent from winning in the second row in their last turn. This was a crucial defensive move to prolong the game, although it doesn't guarantee a win for me.",
+  "execution_time": 23.352625200001057,
+  "timestamp": {
+    "$date": "2025-02-27T16:14:58.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f85f2d469a3466d2cf1"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 0.4115963999647647,
+  "timestamp": {
+    "$date": "2025-02-27T16:15:01.791Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c08f8ef2d469a3466d2cf3"
+  },
+  "id_match": "c993f896-f525-11ef-8f03-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"3\"]\nReason: Completing the second row to win the game.",
+  "execution_time": 4.953527400037274,
+  "timestamp": {
+    "$date": "2025-02-27T16:15:10.216Z"
+  }
+}]

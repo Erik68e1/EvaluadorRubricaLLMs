@@ -1,0 +1,1212 @@
+[{
+  "_id": {
+    "$oid": "67bf7d6a24db2c6f04bebc4a"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"2\"]\nMarking the center cell is a strategic opening move in tic-tac-toe.",
+  "execution_time": 2.095616999955382,
+  "timestamp": {
+    "$date": "2025-02-26T20:45:30.293Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d6f24db2c6f04bebc4c"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"1\"]\nMarking the top-left corner is a strategic move to set up potential winning lines both vertically and diagonally.",
+  "execution_time": 2.4882077999645844,
+  "timestamp": {
+    "$date": "2025-02-26T20:45:35.529Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d7a24db2c6f04bebc4e"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]\nTo prevent player \"x\" from winning diagonally, I marked the bottom right corner. This move blocks the potential diagonal win for \"x\" that would have been created if \"x\" marked (3,3) in their next turn, given that \"x\" already marked (1,1) and (2,2).",
+  "execution_time": 6.86759899999015,
+  "timestamp": {
+    "$date": "2025-02-26T20:45:46.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d7f24db2c6f04bebc50"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"3\"]\nMarking the top-right corner creates a potential winning line for \"x\" both horizontally and diagonally. This move also blocks \"o\" from creating a diagonal win.",
+  "execution_time": 2.1685195000027306,
+  "timestamp": {
+    "$date": "2025-02-26T20:45:51.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d8924db2c6f04bebc52"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"1\"]\nTo block player \"x\" from winning diagonally by placing their mark at position (3, 1), which would complete the diagonal line (1, 3) - (2, 2) - (3, 1).",
+  "execution_time": 5.679861199983861,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:01.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d8d24db2c6f04bebc54"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"1\"]\nMarking the middle-left cell creates a potential winning line for \"x\" both vertically and horizontally. This move also blocks \"o\" from creating a vertical win.",
+  "execution_time": 1.8757832999690436,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:05.790Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d9a24db2c6f04bebc56"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"2\"]\nTo prevent player \"x\" from winning the first row by placing a mark at position (1, 2), which would complete the row (1, 1) - (1, 2) - (1, 3) with \"x\".",
+  "execution_time": 8.681446300004609,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:18.090Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7d9f24db2c6f04bebc58"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"2\"]\nMarking the bottom-center cell creates a potential winning line for \"x\" both vertically and horizontally. This move also blocks \"o\" from creating a vertical win.",
+  "execution_time": 2.253500599996187,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:23.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7da624db2c6f04bebc5a"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"3\"]\nMarking the last empty cell. Player 'o' won in the previous move by completing the bottom row. I won.",
+  "execution_time": 4.973923999990802,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:30.987Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7dad24db2c6f04bebc5c"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [],
+  "board": [
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    ""
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "It seems there's a misunderstanding. According to the previous moves, \"o\" completed the bottom row with the move [\"mark\", \"3\", \"1\"], which means \"o\" won the game. Therefore, the game has already ended with \"o\" as the winner. No further moves can be made.",
+  "execution_time": 3.370320799993351,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:37.189Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7dbc24db2c6f04bebc5e"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [],
+  "board": [
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "No move possible"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "Let's review the game state and the moves made so far:\n\n1. Initial state: All cells are empty, and \"x\" is in control.\n2. \"x\" marks the center cell: [\"mark\", \"2\", \"2\"].\n3. \"o\" marks the top-left corner: [\"mark\", \"1\", \"1\"].\n4. \"x\" marks the top-right corner: [\"mark\", \"1\", \"3\"].\n5. \"o\" marks the bottom-left corner: [\"mark\", \"3\", \"1\"].\n6. \"x\" marks the middle-left cell: [\"mark\", \"2\", \"1\"].\n7. \"o\" marks the top-center cell: [\"mark\", \"1\", \"2\"].\n8. \"x\" marks the bottom-center cell: [\"mark\", \"3\", \"2\"].\n9. \"o\" marks the middle-right cell: [\"mark\", \"2\", \"3\"].\n\nAt this point, the board looks like this:\n\n```\n1,1: o | 1,2: o | 1,3: x\n2,1: x | 2,2: x | 2,3: o\n3,1: o | 3,2: x | 3,3: b\n```\n\nSince \"o\" has completed the middle row with \"o\" at (1,2), (2,2), and (2,3), \"o\" has won the game. Therefore, no further moves can be made, and the game is over.",
+  "execution_time": 9.993300599977374,
+  "timestamp": {
+    "$date": "2025-02-26T20:46:52.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf7dc924db2c6f04bebc60"
+  },
+  "id_match": "9b0007da-f482-11ef-90ac-283a4d4a60c6",
+  "legalMoves": [],
+  "board": [
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "Let's carefully review the game state and the moves made so far to ensure clarity and correctness:\n\n1. Initial state: All cells are empty, and \"x\" is in control.\n2. \"x\" marks the center cell: [\"mark\", \"2\", \"2\"].\n3. \"o\" marks the top-left corner: [\"mark\", \"1\", \"1\"].\n4. \"x\" marks the top-right corner: [\"mark\", \"1\", \"3\"].\n5. \"o\" marks the bottom-left corner: [\"mark\", \"3\", \"1\"].\n6. \"x\" marks the middle-left cell: [\"mark\", \"2\", \"1\"].\n7. \"o\" marks the top-center cell: [\"mark\", \"1\", \"2\"].\n8. \"x\" marks the bottom-center cell: [\"mark\", \"3\", \"2\"].\n9. \"o\" marks the middle-right cell: [\"mark\", \"2\", \"3\"].\n\nAt this point, the board looks like this:\n\n```\n1,1: o | 1,2: o | 1,3: x\n2,1: x | 2,2: x | 2,3: o\n3,1: o | 3,2: x | 3,3: b\n```\n\nSince \"o\" has completed the middle row with \"o\" at (1,2), (2,2), and (2,3), \"o\" has won the game. Therefore, no further moves can be made, and the game is over.\n\nGiven this, the game has already concluded with \"o\" as the winner. If you have any other moves or scenarios in mind, please let me know, and I'll be happy to assist further.",
+  "execution_time": 9.697375199990347,
+  "timestamp": {
+    "$date": "2025-02-26T20:47:05.507Z"
+  }
+}]

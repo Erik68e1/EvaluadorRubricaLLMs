@@ -1,0 +1,695 @@
+[
+    {
+        "_id": {
+            "$oid": "6838b22329a1fd495d1fc5b9"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gemini-2.0-flash-lite",
+        "game": "tictactoe",
+        "reason": "{\n  \"move\": [\"mark\", \"1\", \"1\"],\n  \"explanation\": \"I am marking the cell (1, 1) with 'x'.\"\n}",
+        "execution_time": 3.3044653000542894,
+        "timestamp": {
+            "$date": "2025-05-29T19:14:43.080000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b23129a1fd495d1fc5bb"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "game": "tictactoe",
+        "reason": "{\n  \"move\": [\"mark\", \"2\", \"2\"],\n  \"explanation\": \"I am marking the center cell (2, 2) with 'o' to control the diagonals and create potential lines.\"\n}",
+        "execution_time": 12.80700330005493,
+        "timestamp": {
+            "$date": "2025-05-29T19:14:57.469000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b23429a1fd495d1fc5bd"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gemini-2.0-flash-lite",
+        "game": "tictactoe",
+        "reason": "{\n  \"explanation\": \"I am marking the cell (1, 2) with 'x' to create a potential line.\",\n  \"move\": [\"mark\", \"1\", \"2\"]\n}",
+        "execution_time": 1.2684019999578595,
+        "timestamp": {
+            "$date": "2025-05-29T19:15:00.228000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b24829a1fd495d1fc5bf"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "game": "tictactoe",
+        "reason": "{\n  \"move\": [\"mark\", \"3\", \"3\"],\n  \"explanation\": \"I am marking the cell (3, 3) with 'o' to block the potential diagonal line from (1,1) to (3,3) and create a chance to win on the next turn if possible.\"\n}",
+        "execution_time": 13.45907670003362,
+        "timestamp": {
+            "$date": "2025-05-29T19:15:20.041000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b24a29a1fd495d1fc5c1"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "x",
+        "model": "gemini-2.0-flash-lite",
+        "game": "tictactoe",
+        "reason": "{\n  \"explanation\": \"I am marking the cell (1, 3) with 'x' to win the game.\",\n  \"move\": [\"mark\", \"1\", \"3\"]\n}",
+        "execution_time": 1.1808183999964967,
+        "timestamp": {
+            "$date": "2025-05-29T19:15:22.654000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b25329a1fd495d1fc5c3"
+        },
+        "id_match": "2a9733e5-3cc1-11f0-811a-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "valid": 0,
+        "win": 1,
+        "player": "o",
+        "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+        "game": "tictactoe",
+        "reason": "{\n  \"move\": [\"N/A\", \"N/A\", \"N/A\"],\n  \"explanation\": \"You have won the game by completing a row with 'x' in cells (1,1), (1,2), and (1,3). Congratulations!\"\n}",
+        "execution_time": 7.456930999993347,
+        "timestamp": {
+            "$date": "2025-05-29T19:15:31.471000"
+        }
+    }
+]

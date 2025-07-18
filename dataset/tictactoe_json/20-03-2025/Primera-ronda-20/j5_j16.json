@@ -1,0 +1,974 @@
+[
+    {
+        "_id": {
+            "$oid": "67dc77e67aa828e42301bec8"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"1\", \"1\"] \nI made this movement to claim the top left corner of the board, a strategic position that gives me control over a potential row, column, and diagonal, and puts pressure on my opponent to respond.",
+        "execution_time": 4.266084999995655,
+        "timestamp": {
+            "$date": "2025-03-20T20:17:42.485000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc77ea7aa828e42301beca"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/learnlm-1.5-pro-experimental:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"2\", \"2\"]\nTaking the center prevents opponent from creating forks and maximizes potential winning lines.\n",
+        "execution_time": 1.3331485999951838,
+        "timestamp": {
+            "$date": "2025-03-20T20:17:46.803000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc77ef7aa828e42301becc"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"1\", \"2\"] \nI made this movement to create a potential row and put pressure on the opponent, also to limit their options and create a possibility to win the game, as I already have the top left corner and now I'm trying to get the top row.",
+        "execution_time": 1.8542177000053925,
+        "timestamp": {
+            "$date": "2025-03-20T20:17:51.809000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc77f47aa828e42301bece"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/learnlm-1.5-pro-experimental:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"1\", \"3\"]\nI need to block the opponent from winning by completing the top row.  This move also gives me potential to win with a diagonal or column.\n",
+        "execution_time": 1.9434517000045162,
+        "timestamp": {
+            "$date": "2025-03-20T20:17:56.520000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc77fc7aa828e42301bed0"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"3\", \"1\"] \nI made this movement to start building a potential row at the bottom and also to create a possibility to win with a diagonal, since my opponent is focused on the top row, I'm trying to open a new front at the bottom.",
+        "execution_time": 1.9527155999967363,
+        "timestamp": {
+            "$date": "2025-03-20T20:18:04.529000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc78067aa828e42301bed2"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/learnlm-1.5-pro-experimental:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"2\", \"1\"]\nBlocking the opponent's potential diagonal and creating a potential winning column for myself.  \n",
+        "execution_time": 1.3443437999958405,
+        "timestamp": {
+            "$date": "2025-03-20T20:18:14.754000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc78127aa828e42301bed4"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"3\", \"3\"] \nI made this movement to claim the bottom right corner and create a potential row, also to put pressure on the opponent and limit their options, as I'm trying to create multiple possibilities to win the game, and this move also gives me a chance to win with a diagonal.",
+        "execution_time": 5.985407000000123,
+        "timestamp": {
+            "$date": "2025-03-20T20:18:26.655000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc78187aa828e42301bed6"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "3"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "o",
+        "model": "google/learnlm-1.5-pro-experimental:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"2\", \"3\"]\nThis blocks the opponent's potential win along the right column or bottom right to top left diagonal. It also gives me a potential win condition along the right column.  This is a forced move to prevent a loss.\n",
+        "execution_time": 2.825362600007793,
+        "timestamp": {
+            "$date": "2025-03-20T20:18:32.208000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67dc781d7aa828e42301bed8"
+        },
+        "id_match": "5ca783f8-05c8-11f0-908c-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\", \"3\", \"2\"] \nI made this movement to create a potential row at the bottom and put pressure on the opponent, as I'm trying to create a winning condition, and this move also limits the opponent's options, it's a move that tries to take advantage of the current state of the board.",
+        "execution_time": 2.6923474999930477,
+        "timestamp": {
+            "$date": "2025-03-20T20:18:37.977000"
+        }
+    }
+]

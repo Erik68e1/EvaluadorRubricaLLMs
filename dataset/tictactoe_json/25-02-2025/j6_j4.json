@@ -1,0 +1,691 @@
+[{
+  "_id": {
+    "$oid": "67bf22db1f4b0cca91e75f04"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"1\", \"1\"]\n```\n\nReason:As the first player, I'm marking the top-left corner. This is a good starting move in tic-tac-toe as it gives potential to win across a row, a column, and a diagonal.\n",
+  "execution_time": 4.558593499998096,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:07.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf22e31f4b0cca91e75f06"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"2\", \"2\"]\n```\n\nReason: I'm marking the center cell. This is a strategic move because the center cell is part of four potential winning lines (two diagonals, one row, and one column). By taking the center, I maximize my chances of creating a winning line in future moves.",
+  "execution_time": 5.3112938000122085,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:15.950Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf22ea1f4b0cca91e75f08"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"1\", \"3\"]\n```\n\nReason: I'm aiming to create a diagonal line from the top right to the bottom left, or a horizontal line across the top row.  This blocks a potential win for 'o' across the middle row.\n",
+  "execution_time": 3.3028094999608584,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:22.035Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf22fc1f4b0cca91e75f0a"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"3\", \"3\"]\n```\n\nReason: By marking the bottom-right corner, I am attempting to create a diagonal line from the top-left to the bottom-right. This move also blocks the possibility of 'x' completing a diagonal line from the top-right to the bottom-left. If 'x' does not block this diagonal in the next move, I will win.",
+  "execution_time": 15.018804699997418,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:40.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf23021f4b0cca91e75f0c"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"1\", \"2\"]\n```\n\nReason:  Blocking 'o' from winning and creating a potential win condition for 'x' in the top row.  If I get the next turn at (3,1) I win.\n",
+  "execution_time": 3.3486260999925435,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:46.306Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf23051f4b0cca91e75f0e"
+  },
+  "id_match": "9f645fe6-f44c-11ef-8dc7-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "o",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.1171699999831617,
+  "timestamp": {
+    "$date": "2025-02-26T14:19:49.744Z"
+  }
+}]

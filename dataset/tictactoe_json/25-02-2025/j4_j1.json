@@ -1,0 +1,1493 @@
+[{
+  "_id": {
+    "$oid": "67bf4122419e491019c6f14e"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"2\"]\n\nReason: Marking the center cell (2, 2) is a strategic move in tic-tac-toe. It provides the best chance for creating a winning line in the fewest moves, as the center cell is part of four potential winning lines (two diagonals, one row, and one column). This move also helps in defending against the opponent's potential winning lines.",
+  "execution_time": 4.279166000022087,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:18.698Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4129419e491019c6f150"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"1\"]\n\nReason: Occupying a corner in response to the opponent taking the center is a common strategy in tic-tac-toe.  It helps to create potential winning lines along rows, columns and diagonals and limits opponent's options to form winning lines using center cell.",
+  "execution_time": 3.2574896000442095,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:25.654Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4131419e491019c6f152"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]\n\nReason: By marking the opposite corner (3, 3) in response to the opponent's corner (1, 1), I am setting up a potential diagonal win while also creating a defensive position. This move helps in creating two potential winning lines (one diagonal and one row/column) and limits the opponent's options to form a winning line.",
+  "execution_time": 3.8531612000078894,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:33.504Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf413e419e491019c6f154"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"2\"]\n\nReason: I am placing my mark in cell (1, 2) to aim for a potential win in the first row. If I can place another 'o' in (1, 3) in the next turn, I will win the game. This move also prevents 'x' from potentially occupying this cell to create a winning line in the first column combined with (1, 1).",
+  "execution_time": 6.828945800021756,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:46.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4142419e491019c6f156"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.3127304000081494,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:50.586Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4148419e491019c6f158"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.3133389999857172,
+  "timestamp": {
+    "$date": "2025-02-26T16:28:56.257Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf414c419e491019c6f15a"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    null
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.2381872000405565,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:00.133Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4152419e491019c6f15c"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"1\"]\n\nReason: By marking cell (2, 1), I am aiming to create a potential winning line in the first column. If I can place another 'x' in (3, 1) in the next turn, I will win the game. This move also helps in defending against the opponent's potential winning line in the first row.",
+  "execution_time": 2.933529800036922,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:06.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4159419e491019c6f15e"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "o",
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"3\"]\n\nReason: I am placing the mark at (1, 3) to complete the first row with 'o' and win the game. This is a winning move as it creates a horizontal line of 'o's in the first row.",
+  "execution_time": 3.882785900030285,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:13.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4166419e491019c6f160"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "You win the game with the move [\"mark\", \"1\", \"3\"]. By completing the first row with 'o's, you have created a winning line horizontally. Congratulations on your strategic play!",
+  "execution_time": 6.46755739999935,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:26.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf416d419e491019c6f162"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 3.809318899991922,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:33.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4173419e491019c6f164"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 2.279664999980014,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:39.139Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf4177419e491019c6f166"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "None"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.5102608000161126,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:43.683Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf417c419e491019c6f168"
+  },
+  "id_match": "aa0fc710-f45e-11ef-92a2-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "No move was provided"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": null,
+  "execution_time": 1.4011052999994718,
+  "timestamp": {
+    "$date": "2025-02-26T16:29:48.024Z"
+  }
+}]

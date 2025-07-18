@@ -1,0 +1,1360 @@
+[
+    {
+        "_id": {
+            "$oid": "6838b4a97e0caa5ca6af0dce"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "meta-llama/llama-4-maverick",
+        "game": "tictactoe",
+        "reason": "To start the game as 'x', I will choose a central position to maximize my chances of winning and to have the flexibility to respond to 'o's moves effectively. \n\nMy move will be: [\"mark\",\"2\",\"2\"].\n\nReason: I choose the center because it is a strategic position that gives me the greatest flexibility for my next move and puts pressure on 'o' to respond accordingly. It's a starting move, so I don't win or lose yet.",
+        "execution_time": 4.801700299954973,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:29.401000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4ad7e0caa5ca6af0dd0"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"move\": [\"mark\", \"2\", \"2\"], \"explanation\": \"Playing in the center (2, 2) to start is a standard opening move in tic-tac-toe.  It gives the most potential winning lines and forces the opponent to react.\"}",
+        "execution_time": 2.3036621999926865,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:33.126000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4b07e0caa5ca6af0dd2"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"explanation\": \"I am playing in the center (2, 2) to start.  This is a standard opening move in tic-tac-toe.  It gives the most potential winning lines and forces the opponent to react.\", \"move\": [\"mark\",\"2\",\"2\"]}",
+        "execution_time": 1.4385004999348894,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:36.494000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4b37e0caa5ca6af0dd4"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"explanation\": \"I am playing in the center (2, 2) to start.  This is a standard opening move in tic-tac-toe.  It gives the most potential winning lines and forces the opponent to react.\", \"move\": [\"mark\",\"2\",\"2\"]}",
+        "execution_time": 1.2803143999772146,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:39.089000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4b57e0caa5ca6af0dd6"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"move\": [\"mark\", \"2\", \"2\"], \"explanation\": \"Playing in the center (2, 2) as the first move is a standard tic-tac-toe strategy. It maximizes potential winning lines.\"}",
+        "execution_time": 1.2852328999433666,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:41.796000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4b87e0caa5ca6af0dd8"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"move\": [\"mark\", \"2\", \"2\"], \"explanation\": \"I am marking the center to begin, this is a good opening move.\"}",
+        "execution_time": 1.8402740999590605,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:44.947000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4bb7e0caa5ca6af0dda"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"move\": [\"mark\", \"2\", \"2\"], \"explanation\": \"Choosing the center (2,2) is a strategic opening move in tic-tac-toe, as it participates in the most potential winning lines (4) and thus maximizes my chances of winning.\"}",
+        "execution_time": 1.5819989999290556,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:47.810000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4c67e0caa5ca6af0ddc"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"explanation\": \"I am marking the center (2, 2) as my first move.  It's the most versatile starting position and gives me more options to create winning combinations.\", \"move\": [\"mark\", \"2\", \"2\"]}",
+        "execution_time": 9.4246140999021,
+        "timestamp": {
+            "$date": "2025-05-29T19:25:58.647000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4c97e0caa5ca6af0dde"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"explanation\": \"I'm choosing the center square (2,2) because it's involved in the most possible winning lines (horizontal, vertical, and both diagonals). This maximizes my potential to win.\", \"move\": [\"mark\", \"2\", \"2\"]}",
+        "execution_time": 1.5752076000208035,
+        "timestamp": {
+            "$date": "2025-05-29T19:26:01.577000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4cc7e0caa5ca6af0de0"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"explanation\": \"I'm choosing the center square (2,2) because it's strategically the best first move. It allows me to participate in four possible winning lines. I do not win yet, but I am starting.\", \"move\": [\"mark\", \"2\", \"2\"]}",
+        "execution_time": 1.5446149999042973,
+        "timestamp": {
+            "$date": "2025-05-29T19:26:04.474000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b4cf7e0caa5ca6af0de2"
+        },
+        "id_match": "aaf67528-3cc2-11f0-850b-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gemini-1.5-pro",
+        "game": "tictactoe",
+        "reason": "{\"move\": [\"mark\", \"2\", \"2\"], \"explanation\": \"Starting by marking the center (2, 2) gives me the most potential winning lines (horizontal, vertical, and both diagonals) and is the optimal opening move.\"}",
+        "execution_time": 1.4186781999887899,
+        "timestamp": {
+            "$date": "2025-05-29T19:26:07.230000"
+        }
+    }
+]

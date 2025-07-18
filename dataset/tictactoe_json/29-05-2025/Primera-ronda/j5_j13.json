@@ -1,0 +1,695 @@
+[
+    {
+        "_id": {
+            "$oid": "6838ac3cbd32956e052e829e"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "qwen/qwen3-235b-a22b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"2\"]  \nPlayer \"x\" chooses the center cell (2,2) first as it provides the most strategic opportunities. The center allows for completing the middle row, middle column, or either diagonal, maximizing the chances to create multiple winning lines while forcing the opponent \"o\" to respond defensively. This is a foundational tactic in Tic-Tac-Toe for gaining control of the game.",
+        "execution_time": 27.611820199992508,
+        "timestamp": {
+            "$date": "2025-05-29T18:49:32.071000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838ac44bd32956e052e82a0"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "mistralai/codestral-2501",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"1\",\"1\"]\nPlayer \"o\" marks the top-left corner (1,1) to block potential winning lines for \"x\" and to create opportunities for \"o\" to form their own winning lines. This move is strategic as it opens up new potential winning paths for \"o\" while also preventing \"x\" from completing a line too easily.",
+        "execution_time": 6.861223799991421,
+        "timestamp": {
+            "$date": "2025-05-29T18:49:40.659000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838ada0bd32956e052e82a2"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "qwen/qwen3-235b-a22b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"1\",\"3\"]  \nPlayer \"x\" marks (1,3) to secure a corner, which offers multiple pathways for completing the top row or the diagonal (1,3)-(2,2)-(3,1). This move avoids immediate confrontation on the primary diagonal (1,1)-(2,2)-(3,3), already partially controlled by \"o\", and instead creates flexible threats while reserving options for future forks.",
+        "execution_time": 345.6824443000369,
+        "timestamp": {
+            "$date": "2025-05-29T18:55:28.229000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838ada4bd32956e052e82a4"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "mistralai/codestral-2501",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"3\",\"2\"]\nPlayer \"o\" marks the bottom center (3,2) to block the potential threat on the middle row and to create a new threat on the middle column. This move defends against \"x\"'s strategy while setting up a potential winning line for \"o\".",
+        "execution_time": 3.1886075999354944,
+        "timestamp": {
+            "$date": "2025-05-29T18:55:32.837000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838ade7bd32956e052e82a6"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "x",
+        "model": "qwen/qwen3-235b-a22b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"3\",\"1\"]  \nPlayer \"x\" completes the secondary diagonal (1,3)-(2,2)-(3,1) by occupying (3,1), which secures three consecutive \"x\" marks in a line (diagonal victory). This move directly creates an unobstructed winning line for \"x\".  \n\n**Reasoning**:  \nThe secondary diagonal for player \"x\" has three cells: (1,3), (2,2), and (3,1). By marking (3,1), \"x\" gains complete control of this diagonal, guaranteeing a win. This move was not available earlier because o occupied (1,1), but now it is the most immediate path to fulfill a winning condition efficiently.",
+        "execution_time": 65.2721039999742,
+        "timestamp": {
+            "$date": "2025-05-29T18:56:39.416000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838adedbd32956e052e82a8"
+        },
+        "id_match": "97846a08-3cbd-11f0-8e71-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "o",
+        "model": "mistralai/codestral-2501",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"1\",\"2\"]\nPlayer \"o\" now marks the top center (1,2) to block the potential threat on the top row and to create a new threat on the center column. This move defends against \"x\"'s strategy while setting up a potential winning line for \"o\".",
+        "execution_time": 4.477642799960449,
+        "timestamp": {
+            "$date": "2025-05-29T18:56:45.388000"
+        }
+    }
+]

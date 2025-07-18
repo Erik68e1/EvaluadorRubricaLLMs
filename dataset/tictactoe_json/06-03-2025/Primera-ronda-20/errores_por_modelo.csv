@@ -1,0 +1,19 @@
+Modelo,Partida 1,Partida 2,Total errores
+google/gemini-2.0-flash-lite-preview-02-05:free,4,3,7
+google/gemini-2.0-flash-thinking-exp:free,1,2,3
+google/gemini-2.0-pro-exp-02-05:free,0,0,0
+google/gemini-2.0-flash-exp:free,0,0,0
+google/gemini-2.0-flash-thinking-exp-1219:free,0,0,0
+deepseek/deepseek-r1:free,3,0,3
+google/gemini-exp-1206:free,0,0,0
+o1-mini,1,0,1
+google/learnlm-1.5-pro-experimental:free,0,0,0
+o3-mini,0,0,0
+gpt-3.5-turbo-0125,1,0,1
+qwen/qwen2.5-vl-72b-instruct:free,3,1,4
+gpt-4o,0,0,0
+sophosympatheia/rogue-rose-103b-v0.2:free,1,0,1
+cognitivecomputations/dolphin3.0-r1-mistral-24b:free,0,1,1
+cognitivecomputations/dolphin3.0-mistral-24b:free,0,3,3
+meta-llama/llama-3.3-70b-instruct:free,6,0,6
+nvidia/llama-3.1-nemotron-70b-instruct:free,2,2,4

@@ -1,0 +1,695 @@
+[
+    {
+        "_id": {
+            "$oid": "67d5a6b828aa1d8f531d54a0"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "google/gemini-2.0-flash-exp:free",
+        "game": "tictactoe",
+        "reason": "Okay, I'll play as 'x'.\n\nMy move is: [\"mark\",\"1\",\"1\"]\n\nReason: As the first move of the game, it's strategically sound to occupy a corner position, which opens up possibilities for diagonal or row/column wins later.\n",
+        "execution_time": 2.211339799920097,
+        "timestamp": {
+            "$date": "2025-03-15T16:11:36.674000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67d5a6be28aa1d8f531d54a2"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
+        "game": "tictactoe",
+        "reason": "Okay, the game continues.\n\nCurrent board state: [['cell', '1', '1', 'x'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'b'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'o']]\n\nMy move is: [\"mark\",\"2\",\"2\"]\n\nReason: Placing my mark in the center is a strong strategic move, as it participates in both diagonals and both the central row and central column.\n",
+        "execution_time": 2.395587700069882,
+        "timestamp": {
+            "$date": "2025-03-15T16:11:42.263000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67d5a6c528aa1d8f531d54a4"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "google/gemini-2.0-flash-exp:free",
+        "game": "tictactoe",
+        "reason": "Okay, the game continues.\n\nCurrent board state: [['cell', '1', '1', 'x'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'o'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'x']]\n\nMy move is: [\"mark\",\"1\",\"3\"]\n\nReason: I am placing my mark in cell (1, 3) to create a potential diagonal win condition from (1, 1) to (3, 3) if I get the chance to mark (3, 3) later. It also opens the possibility of winning the first row if I can mark (1, 2) in the future.\n",
+        "execution_time": 2.6507911999942735,
+        "timestamp": {
+            "$date": "2025-03-15T16:11:49.810000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67d5a6cc28aa1d8f531d54a6"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
+        "game": "tictactoe",
+        "reason": "Okay, the game continues.\n\nCurrent board state: [['cell', '1', '1', 'x'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'x'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'o'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'o']]\n\nMy move is: [\"mark\",\"3\",\"1\"]\n\nReason: Placing my mark in cell (3, 1) prevents 'o' from potentially completing a diagonal win from (1, 3) to (3, 1). It also creates a potential winning condition if I get to mark the remaining cell of the first column.",
+        "execution_time": 2.2724693999625742,
+        "timestamp": {
+            "$date": "2025-03-15T16:11:56.561000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67d5a6d328aa1d8f531d54a8"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "x",
+        "model": "google/gemini-2.0-flash-exp:free",
+        "game": "tictactoe",
+        "reason": "Okay, the game continues.\n\nCurrent board state: [['cell', '1', '1', 'x'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'x'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'o'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'o'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'x']]\n\nMy move is: [\"mark\",\"1\",\"2\"]\n\nReason: By placing my mark in cell (1, 2), I complete the first row with 'x', resulting in a win for me.\n",
+        "execution_time": 3.3453584000235423,
+        "timestamp": {
+            "$date": "2025-03-15T16:12:03.727000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67d5a6d928aa1d8f531d54aa"
+        },
+        "id_match": "289886d9-01b8-11f0-9795-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "M",
+            "N"
+        ],
+        "valid": 0,
+        "win": 1,
+        "player": "o",
+        "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
+        "game": "tictactoe",
+        "reason": "I win!\n",
+        "execution_time": 2.1208584000123665,
+        "timestamp": {
+            "$date": "2025-03-15T16:12:09.117000"
+        }
+    }
+]

@@ -1,0 +1,590 @@
+[
+    {
+        "_id": {
+            "$oid": "67e2c60c119c179cf7071362"
+        },
+        "id_match": "74194da4-098a-11f0-b680-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "deepseek/deepseek-r1:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"2\"]  \nChoosing the center position (2,2) gives \"x\" the strategic advantage of influencing the most possible winning lines (middle row, column, and both diagonals), setting up multiple potential paths to victory in subsequent turns.",
+        "execution_time": 10.862846900010481,
+        "timestamp": {
+            "$date": "2025-03-25T15:04:44.871000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2c614119c179cf7071364"
+        },
+        "id_match": "74194da4-098a-11f0-b680-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/gemini-2.0-pro-exp-02-05:free",
+        "game": "tictactoe",
+        "reason": "[['cell', '1', '1', 'b'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'o']]\n[\"mark\",\"1\",\"1\"]\n\nPlacing \"o\" in the top-left corner (1, 1) immediately blocks one of \"x\"'s potential winning lines (the top row) and starts building a potential diagonal win condition for \"o\".\n",
+        "execution_time": 5.059833299834281,
+        "timestamp": {
+            "$date": "2025-03-25T15:04:52.992000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2c639119c179cf7071366"
+        },
+        "id_match": "74194da4-098a-11f0-b680-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "deepseek/deepseek-r1:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"3\",\"3\"]  \nMarking (3,3) establishes a diagonal (from 2,2) and creates potential to win via both diagonals or the right column. This puts \"x\" in a strong position to force a victory or fork, making it difficult for \"o\" to block all threats in subsequent turns.",
+        "execution_time": 33.87085030018352,
+        "timestamp": {
+            "$date": "2025-03-25T15:05:29.939000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2c641119c179cf7071368"
+        },
+        "id_match": "74194da4-098a-11f0-b680-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "google/gemini-2.0-pro-exp-02-05:free",
+        "game": "tictactoe",
+        "reason": "[['cell', '1', '1', 'o'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'x'], ['control', 'o']]\n[\"mark\",\"1\",\"3\"]\n\nMark (1,3) to block another win combination of player x.\n",
+        "execution_time": 3.522508499911055,
+        "timestamp": {
+            "$date": "2025-03-25T15:05:37.177000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2c786119c179cf707136a"
+        },
+        "id_match": "74194da4-098a-11f0-b680-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "[\"H\", \"INVALID\", \"INVALID\"]"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "x",
+        "model": "deepseek/deepseek-r1:free",
+        "game": "tictactoe",
+        "reason": "",
+        "execution_time": 64.68679249985144,
+        "timestamp": {
+            "$date": "2025-03-25T15:11:02.891000"
+        }
+    }
+]

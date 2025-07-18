@@ -1,0 +1,793 @@
+[
+    {
+        "_id": {
+            "$oid": "67e2cc307736c6ca6072e1e7"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "I mark the cell (1, 1). \n\nReason: I chose this movement to start occupying a corner cell, which is a strategic position as it allows for more possibilities to create winning combinations later in the game.",
+        "execution_time": 1.5014231000095606,
+        "timestamp": {
+            "$date": "2025-03-25T15:30:56.733000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc3d7736c6ca6072e1e9"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"2\"]  \nReason: I chose the center cell (2,2) to control a strategic position. This allows me to block potential diagonals, rows, or columns the opponent might try to complete, while also enabling multiple winning combinations for \"o\" in subsequent turns.",
+        "execution_time": 7.202926700003445,
+        "timestamp": {
+            "$date": "2025-03-25T15:31:09.043000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc417736c6ca6072e1eb"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"3\",\"3\"]\n\nReason: I mark the cell (3, 3) to start creating a diagonal of \"x\" symbols. This move aims to potentially win the game by completing a diagonal line.",
+        "execution_time": 1.9307856000959873,
+        "timestamp": {
+            "$date": "2025-03-25T15:31:13.559000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc507736c6ca6072e1ed"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"1\"]  \nReason: I chose the cell (2, 1) to start controlling the second column. This strategic position allows \"o\" to potentially complete a column win, block \"x\" from winning in the second column, and also provides flexibility for future rows or diagonal winning combinations.",
+        "execution_time": 12.666793800191954,
+        "timestamp": {
+            "$date": "2025-03-25T15:31:28.873000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc547736c6ca6072e1ef"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"1\",\"3\"]\n\nReason: I mark the cell (1, 3) to start creating a diagonal of \"x\" symbols and block the opponent from completing a diagonal. This move aims to potentially win the game by completing a diagonal line.",
+        "execution_time": 0.9085041000507772,
+        "timestamp": {
+            "$date": "2025-03-25T15:31:32.443000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc787736c6ca6072e1f1"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "3"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "o",
+        "model": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"3\"]  \nReason: To win the game by completing a column for \"o\". By marking (2,3), \"o\" focuses on securing a column win in row 2, as it already controls positions (2,1) and (2,2). This move ensures \"o\" has a winning line and ends the game immediately in favor of \"o\".",
+        "execution_time": 29.677565100137144,
+        "timestamp": {
+            "$date": "2025-03-25T15:32:08.435000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67e2cc7b7736c6ca6072e1f3"
+        },
+        "id_match": "235cc7b0-098e-11f0-8e50-9cb6d0f8066e",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "3"
+        ],
+        "valid": 0,
+        "win": 1,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "Congratulations! \"o\" wins by completing a column. \n\nReason: By successfully marking cell (2, 3), \"o\" completes a column in row 2, thus achieving victory as per the game rules.",
+        "execution_time": 0.8597289999015629,
+        "timestamp": {
+            "$date": "2025-03-25T15:32:11.915000"
+        }
+    }
+]

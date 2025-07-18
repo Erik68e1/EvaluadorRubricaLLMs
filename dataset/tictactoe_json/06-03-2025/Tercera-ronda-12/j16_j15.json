@@ -1,0 +1,693 @@
+[{
+  "_id": {
+    "$oid": "67ca43bb72d1e2a682ad7067"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```\n[\"mark\", \"1\", \"1\"]\n```\n\nReason:As it's the first move and I'm playing as 'x', taking the center corner increases my chances of creating winning combinations.  This is a standard opening move in Tic-Tac-Toe.\n",
+  "execution_time": 2.2225086000107694,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:19.946Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43c072d1e2a682ad7069"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-exp-1206:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"2\", \"2\"]\n```\n\nReason: As the current player is 'x', placing it in the center gives the advantage of all completing lines, maximizing the chances of winning.\n",
+  "execution_time": 1.4821593999804463,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:24.581Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43c572d1e2a682ad706b"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```\n[\"mark\", \"1\", \"2\"]\n```\n\nReason:I need to block 'o' from getting three in a row across the middle row.  'o' just played in the center, so this move is a critical defensive play.\n",
+  "execution_time": 1.8413008000061382,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:29.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43ca72d1e2a682ad706d"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-exp-1206:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"3\", \"3\"]\n```\n\nReason: I marked the cell (3, 3) to block o' from getting three in a row, and I win with that move.\n",
+  "execution_time": 1.4368865999858826,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:34.116Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43cf72d1e2a682ad706f"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "google/learnlm-1.5-pro-experimental:free",
+  "game": "tictactoe",
+  "reason": "```\n[\"mark\", \"1\", \"3\"]\n```\n\nReason: I need to block 'o' from winning diagonally. If 'o' plays at (3,1) next turn, they'll win. This move is a defensive play to prevent that.\n",
+  "execution_time": 1.9960577999881934,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:39.498Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43d572d1e2a682ad7071"
+  },
+  "id_match": "b14cee59-faee-11ef-a39d-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "o",
+  "model": "google/gemini-exp-1206:free",
+  "game": "tictactoe",
+  "reason": "```json\n[\"mark\", \"3\", \"1\"]\n```\n\nReason:I marked (3,1) and with that movement, player x completed all the cells of the diagonal, then I as player \"x\", won the game.\n",
+  "execution_time": 2.4883542000025045,
+  "timestamp": {
+    "$date": "2025-03-07T00:54:45.377Z"
+  }
+}]

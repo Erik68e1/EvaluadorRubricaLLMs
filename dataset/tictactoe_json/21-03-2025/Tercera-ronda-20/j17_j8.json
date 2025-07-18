@@ -1,0 +1,695 @@
+[
+    {
+        "_id": {
+            "$oid": "67de1edef4f57702896235c3"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"1\",\"1\"]\n\nI mark cell (1,1) as \"x\" to start building a line horizontally.",
+        "execution_time": 1.3268267000021297,
+        "timestamp": {
+            "$date": "2025-03-22T02:22:22.568000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67de1ee7f4f57702896235c5"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "sophosympatheia/rogue-rose-103b-v0.2:free",
+        "game": "tictactoe",
+        "reason": " Board after your move:\n\n```json\n[\n  [\n    \"cell\",\n    \"1\",\n    \"1\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"1\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"1\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"control\",\n    \"o\"\n  ]\n]\n```\n\nYour move is valid. It's my turn now. I will try to block your horizontal line by marking cell (1,2) as \"o\".\n\nAI: [\"mark\",\"1\",\"2\"]",
+        "execution_time": 6.1768158999984735,
+        "timestamp": {
+            "$date": "2025-03-22T02:22:31.839000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67de1eeaf4f57702896235c7"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"2\",\"2\"]\n\nI mark cell (2,2) as \"x\" to build a potential vertical line and create a threat for victory.",
+        "execution_time": 0.9825911000007181,
+        "timestamp": {
+            "$date": "2025-03-22T02:22:34.856000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67de1ef4f4f57702896235c9"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "sophosympatheia/rogue-rose-103b-v0.2:free",
+        "game": "tictactoe",
+        "reason": "  Board after your move:\n\n```json\n[\n  [\n    \"cell\",\n    \"1\",\n    \"1\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"2\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"1\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"2\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"1\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"control\",\n    \"o\"\n  ]\n]\n```\n\nYour move is valid. It's my turn now. I will mark cell (3,1) as \"o\" to try and create an opportunity for a diagonal win.\n\nAI: [\"mark\",\"3\",\"1\"]",
+        "execution_time": 6.754185300000245,
+        "timestamp": {
+            "$date": "2025-03-22T02:22:44.780000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67de1ef8f4f57702896235cb"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "x",
+        "model": "gpt-3.5-turbo-0125",
+        "game": "tictactoe",
+        "reason": "[\"mark\",\"3\",\"3\"]\n\nI mark cell (3,3) as \"x\" to block the potential diagonal win for \"o\" and set up a possible diagonal victory for myself.",
+        "execution_time": 0.8065683000022545,
+        "timestamp": {
+            "$date": "2025-03-22T02:22:48.050000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "67de1f07f4f57702896235cd"
+        },
+        "id_match": "7b1c5ca5-06c4-11f0-86b3-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "2"
+        ],
+        "valid": 1,
+        "win": 1,
+        "player": "o",
+        "model": "sophosympatheia/rogue-rose-103b-v0.2:free",
+        "game": "tictactoe",
+        "reason": "   Board after your move:\n\n```json\n[\n  [\n    \"cell\",\n    \"1\",\n    \"1\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"2\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"1\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"2\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"1\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"3\",\n    \"x\"\n  ],\n  [\n    \"control\",\n    \"o\"\n  ]\n]\n```\n\nYour move is valid. It's my turn now. I will mark cell (2,1) as \"o\" to block your potential diagonal win.\n\nAI: [\"mark\",\"2\",\"1\"] \n\nBoard after my move:\n\n```json\n[\n  [\n    \"cell\",\n    \"1\",\n    \"1\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"2\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"1\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"1\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"2\",\n    \"x\"\n  ],\n  [\n    \"cell\",\n    \"2\",\n    \"3\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"1\",\n    \"o\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"2\",\n    \"b\"\n  ],\n  [\n    \"cell\",\n    \"3\",\n    \"3\",\n    \"x\"\n  ],\n  [\n    \"control\",\n    \"x\"\n  ]\n]\n```\n\nYour turn.",
+        "execution_time": 9.161996299997554,
+        "timestamp": {
+            "$date": "2025-03-22T02:23:03.019000"
+        }
+    }
+]

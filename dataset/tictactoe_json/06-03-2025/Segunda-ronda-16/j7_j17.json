@@ -1,0 +1,1154 @@
+[{
+  "_id": {
+    "$oid": "67ca24f1064cd7ea1deb1311"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"2\"]\n\nReason: Marking the center cell (2, 2) is a strategic move in tic-tac-toe. It provides the best chance for creating a winning line in the fewest moves, as the center cell is part of four potential winning lines (two diagonals, one row, and one column). This move also helps in defending against the opponent's potential winning lines.",
+  "execution_time": 4.241221799980849,
+  "timestamp": {
+    "$date": "2025-03-06T22:42:57.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca24f6064cd7ea1deb1313"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "gpt-3.5-turbo-0125",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"3\"]\n\nReason: By marking cell (1, 3), I can create a potential winning line in the top row if the opponent does not block it on their next turn.",
+  "execution_time": 0.7934345999965444,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:02.074Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca24ff064cd7ea1deb1315"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"2\"]\n\nReason: By marking cell (1, 2), I am attempting to block the opponent's potential winning line in the top row. This move also sets up a potential winning line for me in the top row if the opponent does not block it on their next turn.",
+  "execution_time": 3.9088580000097863,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:11.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca2503064cd7ea1deb1317"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "gpt-3.5-turbo-0125",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"1\"]\n\nReason: By marking cell (3, 1), I am creating a potential winning line in the left column. This move also puts pressure on the opponent to defend against multiple potential winning lines.",
+  "execution_time": 0.8051766999997199,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:15.580Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca250d064cd7ea1deb1319"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"1\"]\n\nReason: By marking cell (1, 1), I am creating a potential winning line in the top row and the left column. This move also helps in setting up a diagonal line from the top-left to the bottom-right. If the opponent does not block this move, I can create a winning line in the next move.",
+  "execution_time": 4.3985071000061,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:25.586Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca2513064cd7ea1deb131b"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "gpt-3.5-turbo-0125",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]\n\nReason: By marking cell (3, 3), I am creating a potential winning line in the right column. This move also puts pressure on the opponent to defend against multiple potential winning lines.",
+  "execution_time": 0.9733891999931075,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:31.287Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca251a064cd7ea1deb131d"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "MOVE OR STEP with this format [\"mark\",\"M\",\"N\"] - list format in python"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",",
+  "execution_time": 3.6782261000189465,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:38.563Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca2527064cd7ea1deb131f"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"3\"]\n\nReason: By marking cell (2, 3), I am attempting to block the opponent's potential winning line in the right column. This move also sets up a potential winning line for me in the second row if the opponent does not block it on their next turn. Additionally, it creates a diagonal line from the top-left to the bottom-right, putting pressure on the opponent to defend against multiple potential winning lines.",
+  "execution_time": 5.925310399994487,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:51.086Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca252b064cd7ea1deb1321"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "2"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "o",
+  "model": "gpt-3.5-turbo-0125",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"2\"]\n\nReason: By marking cell (3, 2), I am creating a potential winning line in the middle column. This move also sets up a potential winning line in the bottom row and puts pressure on the opponent to defend against multiple potential winning lines.",
+  "execution_time": 1.2452268000051845,
+  "timestamp": {
+    "$date": "2025-03-06T22:43:55.721Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca2531064cd7ea1deb1323"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "MOVE OR STEP with this format [\"mark\",\"M\",\"N\"] - list format in python"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"",
+  "execution_time": 2.464126300008502,
+  "timestamp": {
+    "$date": "2025-03-06T22:44:01.381Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca253e064cd7ea1deb1325"
+  },
+  "id_match": "54e605dd-fadc-11ef-942c-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"1\"]\n\nReason: By marking cell (2, 1), I am attempting to block the opponent's potential winning line in the left column. This move also sets up a potential winning line for me in the second row if the opponent does not block it on their next turn. Additionally, it creates a diagonal line from the top-right to the bottom-left, putting pressure on the opponent to defend against multiple potential winning lines.",
+  "execution_time": 8.550613200000953,
+  "timestamp": {
+    "$date": "2025-03-06T22:44:14.176Z"
+  }
+}]

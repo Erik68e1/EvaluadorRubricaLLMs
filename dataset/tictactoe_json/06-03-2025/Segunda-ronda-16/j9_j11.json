@@ -1,0 +1,1360 @@
+[{
+  "_id": {
+    "$oid": "67ca1a294831117c92edee54"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"2\",\"2\"]  \n**Reason:** Taking the center (2,2) is strategically optimal as it maximizes control over rows, columns, and both diagonals, setting up multiple potential winning paths while forcing O to respond defensively.",
+  "execution_time": 9.062839000020176,
+  "timestamp": {
+    "$date": "2025-03-06T21:56:57.456Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1a314831117c92edee56"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-pro-exp-02-05:free",
+  "game": "tictactoe",
+  "reason": "Initial conditions: [['cell', '1', '1', 'b'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'b'], ['control', 'o']]\n[\"mark\",\"1\",\"1\"]\n\n**Reason:** Blocking \"x\" player to develop the diagonal, and taking control the 1,1 position can create a potential win in the future.\n",
+  "execution_time": 3.2309420999954455,
+  "timestamp": {
+    "$date": "2025-03-06T21:57:05.546Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1a574831117c92edee58"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"3\",\"3\"]  \n**Reason:** Occupying the opposite corner (3,3) creates a diagonal threat (X at 2,2 and 3,3) and maintains strategic symmetry, forcing O to split their defense between multiple potential lines while maximizing X's win opportunities.",
+  "execution_time": 33.190971699979855,
+  "timestamp": {
+    "$date": "2025-03-06T21:57:43.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1a5d4831117c92edee5a"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-pro-exp-02-05:free",
+  "game": "tictactoe",
+  "reason": "Initial conditions: [['cell', '1', '1', 'o'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'b'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'b'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'x'], ['control', 'o']]\n[\"mark\",\"3\",\"1\"]\n\n**Reason:** Blocking \"x\" to win by completing the diagonal. If not, the player \"x\" will win.\n",
+  "execution_time": 2.38165840000147,
+  "timestamp": {
+    "$date": "2025-03-06T21:57:49.375Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1ada4831117c92edee5c"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "[\"mark\",\"1\",\"2\"]"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "",
+  "execution_time": 120.64223909997963,
+  "timestamp": {
+    "$date": "2025-03-06T21:59:54.102Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1b5d4831117c92edee5e"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"1\",\"3\"]  \n**Reason:** Claiming corner (1,3) creates two potential lines for O (top row and diagonal from 1,3–2,2–3,1, though 2,2 is X). This forces X to spread defenses while blocking X’s possible diagonal (1,3–2,2–3,3) since O now occupies 1,3, reducing X's options.",
+  "execution_time": 125.27462260000175,
+  "timestamp": {
+    "$date": "2025-03-06T22:02:05.430Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1b654831117c92edee60"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-pro-exp-02-05:free",
+  "game": "tictactoe",
+  "reason": "Initial conditions: [['cell', '1', '1', 'o'], ['cell', '1', '2', 'b'], ['cell', '1', '3', 'x'], ['cell', '2', '1', 'b'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'o'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'x'], ['control', 'o']]\n[\"mark\",\"1\",\"2\"]\n\n**Reason:** Blocking \"x\" to win by completing the row 1. If not, the player \"x\" will win.\n",
+  "execution_time": 4.074181100004353,
+  "timestamp": {
+    "$date": "2025-03-06T22:02:13.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1bf84831117c92edee62"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"1\",\"2\"]  \n**Reason:** Blocking X from completing the top row (1,1-1,2-1,3) by occupying the center of the row. If left unblocked, X could win immediately by claiming 1,2 on their next turn. This move also keeps O's defensive options open for other lines.",
+  "execution_time": 17.840491899987683,
+  "timestamp": {
+    "$date": "2025-03-06T22:04:40.375Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1bfd4831117c92edee64"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "3",
+    "1",
+    "2"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "",
+  "execution_time": 1.3316660999844316,
+  "timestamp": {
+    "$date": "2025-03-06T22:04:45.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1c5d4831117c92edee66"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"2\",\"1\"]  \n**Reason:** By marking 2,1, \"o\" completes the vertical column (1,1 + 2,1 + 3,1), securing an immediate win. This directly exploits existing positions without relying on future moves.",
+  "execution_time": 90.50016110000433,
+  "timestamp": {
+    "$date": "2025-03-06T22:06:21.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1c644831117c92edee68"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "google/gemini-2.0-pro-exp-02-05:free",
+  "game": "tictactoe",
+  "reason": "Initial conditions: [['cell', '1', '1', 'o'], ['cell', '1', '2', 'o'], ['cell', '1', '3', 'x'], ['cell', '2', '1', 'x'], ['cell', '2', '2', 'x'], ['cell', '2', '3', 'b'], ['cell', '3', '1', 'o'], ['cell', '3', '2', 'b'], ['cell', '3', '3', 'x'], ['control', 'o']]\n[\"mark\",\"2\",\"3\"]\n\n**Reason:** \"o\" loses, because the \"x\" player complete the row number 2. I need to block.\n",
+  "execution_time": 2.4650605999922846,
+  "timestamp": {
+    "$date": "2025-03-06T22:06:28.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1c8c4831117c92edee6a"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "3"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"2\",\"3\"]  \n**Reason:** Blocking X from completing the second row (2,1-2,2-2,3) by occupying 2,3. If unblocked, X would win on their next turn. This is the only move to prevent an immediate loss.",
+  "execution_time": 35.3679879999836,
+  "timestamp": {
+    "$date": "2025-03-06T22:07:08.260Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca1c8f4831117c92edee6c"
+  },
+  "id_match": "e3a35ec2-fad5-11ef-9bf9-005056c00003",
+  "legalMoves": [
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "No move provided"
+  ],
+  "valid": 0,
+  "win": 0,
+  "player": "x",
+  "model": "deepseek/deepseek-r1:free",
+  "game": "tictactoe",
+  "reason": "",
+  "execution_time": 0.6367379000002984,
+  "timestamp": {
+    "$date": "2025-03-06T22:07:11.559Z"
+  }
+}]

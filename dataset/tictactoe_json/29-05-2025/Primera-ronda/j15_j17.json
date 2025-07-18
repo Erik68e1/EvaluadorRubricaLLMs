@@ -1,0 +1,1601 @@
+[
+    {
+        "_id": {
+            "$oid": "6838b27433c690cc26c5fec1"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "2"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "amazon/nova-pro-v1",
+        "game": "tictactoe",
+        "reason": "Given the initial conditions and that it's \"x\"'s turn, I'll choose to mark the center cell to maximize future opportunities for creating a line. \n\n**Movement:** [\"mark\", \"2\", \"2\"]\n\n**Reason:** Marking the center allows \"x\" to potentially create lines in four different directions (horizontally, vertically, and both diagonals), increasing the chances of winning in future turns.",
+        "execution_time": 4.122155099990778,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:04.938000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b27a33c690cc26c5fec3"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"2\",\"2\"],\"explanation\":\"Marking the center position (2, 2) maximizes strategic control over the game, allowing for the creation of lines in multiple directions: horizontally, vertically, and diagonally. This position offers the most flexibility and potential for winning in future moves.\"}",
+        "execution_time": 3.6325192999793217,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:10.538000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b27e33c690cc26c5fec5"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "1"
+            ],
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"1\",\"1\"],\"explanation\":\"Starting by marking the top-left corner (1, 1) provides a solid anchor in the grid. This move initiates a potential line either horizontally, vertically, or diagonally, giving multiple opportunities to build a winning line over the next turns.\"}",
+        "execution_time": 2.99793260009028,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:14.968000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b28433c690cc26c5fec7"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "2"
+            ],
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "amazon/nova-pro-v1",
+        "game": "tictactoe",
+        "reason": "Given the opponent's move to mark (1, 1) with \"o\", I'll counter by marking the top-center cell to block a potential horizontal line and to set up my own opportunities.\n\n**Movement:** [\"mark\", \"1\", \"2\"]\n\n**Reason:** This move prevents \"o\" from completing a horizontal line in the top row and also allows \"x\" to potentially create a vertical or diagonal line in future turns.",
+        "execution_time": 3.542608999996446,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:20.294000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b28733c690cc26c5fec9"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"1\",\"2\"],\"explanation\":\"By marking position (1, 2), I prevent the opponent from forming a horizontal line on the top row, while also opening opportunities for 'x' to create a vertical or diagonal line, increasing chances of winning in future moves.\"}",
+        "execution_time": 1.7993248000275344,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:23.683000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b28b33c690cc26c5fecb"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "1",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"2\",\"2\"],\"explanation\":\"Marking the center position (2, 2) is a strategic move for 'x', as it provides maximum flexibility. It allows the creation of lines in multiple directions, effectively blocking some of 'o's potential strategies, and increasing the chances to win in future turns.\"}",
+        "execution_time": 2.8255615000380203,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:27.829000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b29333c690cc26c5fecd"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "1",
+                "3"
+            ],
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "1",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"1\",\"3\"],\"explanation\":\"Marking the top-right corner at (1, 3) prevents 'o' from establishing dominance in the top row, while setting up possibilities for forming a complete line vertically down through the third column or diagonally across the board.\"}",
+        "execution_time": 2.1238297999370843,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:35.726000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b29733c690cc26c5fecf"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "2",
+                "3"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "amazon/nova-pro-v1",
+        "game": "tictactoe",
+        "reason": "Given the opponent's move to mark (1, 3) with \"o\", I'll now mark the center-right cell to block a potential vertical line and to create opportunities for my own lines.\n\n**Movement:** [\"mark\", \"2\", \"3\"]\n\n**Reason:** This move prevents \"o\" from completing a vertical line in the third column and also allows \"x\" to potentially create a horizontal or diagonal line in future turns.",
+        "execution_time": 2.485307399998419,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:39.478000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b29b33c690cc26c5fed1"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "3"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"2\",\"3\"],\"explanation\":\"By marking position (2, 3), 'x' blocks 'o' from forming a vertical line in the third column, while also setting up opportunities to create a horizontal line along row 2 or a diagonal line from (2, 3) to (1, 1) to (3, 2).\"}",
+        "execution_time": 2.948839300079271,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:43.696000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b29e33c690cc26c5fed3"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ],
+            [
+                "mark",
+                "3",
+                "3"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "3"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"3\",\"3\"],\"explanation\":\"Marking position (3, 3) blocks 'o' from having control over the diagonal starting from (1, 1) to (3, 3). It also provides 'x' the potential to complete the diagonal from the opposite corner, setting up for possible future win conditions horizontally or vertically.\"}",
+        "execution_time": 1.9568385999882594,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:46.998000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b2a433c690cc26c5fed5"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "amazon/nova-pro-v1",
+        "game": "tictactoe",
+        "reason": "Given the opponent's move to mark (3, 3) with \"o\", I'll now mark the bottom-left cell to block a potential diagonal line and to set up my own opportunities.\n\n**Movement:** [\"mark\", \"3\", \"1\"]\n\n**Reason:** This move prevents \"o\" from completing the diagonal line from (1, 1) to (3, 3) and also allows \"x\" to potentially create a horizontal or vertical line in future turns.",
+        "execution_time": 4.3393275999696925,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:52.628000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b2a933c690cc26c5fed7"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "1",
+                "b"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "1"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"3\",\"1\"],\"explanation\":\"Marking the position (3, 1) effectively blocks 'o' from completing the diagonal from (1, 1) to (3, 3), while also giving 'x' a chance to form a horizontal line across the bottom or start building another line vertically.\"}",
+        "execution_time": 3.0133448999840766,
+        "timestamp": {
+            "$date": "2025-05-29T19:16:57.042000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b2ac33c690cc26c5fed9"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "2",
+                "1"
+            ],
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "3",
+                "2",
+                "b"
+            ],
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "control",
+                "x"
+            ]
+        ],
+        "move": [
+            "mark",
+            "2",
+            "1"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"2\",\"1\"],\"explanation\":\"By marking (2, 1), 'x' is establishing a pivotal position on the board that can potentially create a vertical line in column 1 or contribute to completing a horizontal line in row 2 in future moves. This also maintains strategic flexibility and blocks further immediate progress from 'o' on the left side.\"}",
+        "execution_time": 1.7250217000255361,
+        "timestamp": {
+            "$date": "2025-05-29T19:17:00.308000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b2b133c690cc26c5fedb"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [
+            [
+                "mark",
+                "3",
+                "2"
+            ]
+        ],
+        "board": [
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "2"
+        ],
+        "valid": 1,
+        "win": 0,
+        "player": "x",
+        "model": "amazon/nova-pro-v1",
+        "game": "tictactoe",
+        "reason": "Given the opponent's move to mark (2, 1) with \"x\", I'll now mark the bottom-center cell to block a potential vertical line and to create opportunities for my own lines.\n\n**Movement:** [\"mark\", \"3\", \"2\"]\n\n**Reason:** This move prevents \"x\" from completing a vertical line in the first column and also allows \"o\" to potentially create a horizontal or diagonal line in future turns. However, with this move, \"o\" wins by completing the diagonal from (1, 3) to (3, 1).\n\n**Result:** I win by completing the diagonal.",
+        "execution_time": 3.8489124999614432,
+        "timestamp": {
+            "$date": "2025-05-29T19:17:05.404000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6838b2b433c690cc26c5fedd"
+        },
+        "id_match": "5aefd12e-3cc1-11f0-bc70-005056c00003",
+        "legalMoves": [],
+        "board": [
+            [
+                "cell",
+                "2",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "1",
+                "2",
+                "x"
+            ],
+            [
+                "cell",
+                "1",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "2",
+                "3",
+                "x"
+            ],
+            [
+                "cell",
+                "3",
+                "3",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "1",
+                "x"
+            ],
+            [
+                "cell",
+                "2",
+                "1",
+                "o"
+            ],
+            [
+                "cell",
+                "3",
+                "2",
+                "x"
+            ],
+            [
+                "control",
+                "o"
+            ]
+        ],
+        "move": [
+            "mark",
+            "3",
+            "2"
+        ],
+        "valid": 0,
+        "win": 0,
+        "player": "o",
+        "model": "gpt-4o",
+        "game": "tictactoe",
+        "reason": "{\"move\":[\"mark\",\"3\",\"2\"],\"explanation\":\"Marking position (3, 2) allows 'o' to complete the diagonal line from (1, 3) to (3, 1), resulting in a win for 'o'. This move simultaneously blocks 'x' from creating a vertical line and secures the victory with the diagonal completion.\"}",
+        "execution_time": 1.7462020999519154,
+        "timestamp": {
+            "$date": "2025-05-29T19:17:08.803000"
+        }
+    }
+]

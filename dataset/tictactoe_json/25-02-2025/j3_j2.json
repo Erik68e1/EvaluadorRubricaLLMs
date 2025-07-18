@@ -1,0 +1,884 @@
+[{
+  "_id": {
+    "$oid": "67bf1c680442f89fa0936c30"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "1"
+    ],
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "meta-llama/llama-3.3-70b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"1\"] \nI'm making this move because I want to start by controlling the center of the board, but since the center is not available as the first move, I will place my symbol in the top left corner to have the most possibilities for the next move.",
+  "execution_time": 16.18218150001485,
+  "timestamp": {
+    "$date": "2025-02-26T13:51:36.969Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1c790442f89fa0936c32"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "2"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+  "game": "tictactoe",
+  "reason": "To control the center and set up future winning opportunities, I'll mark the center cell.\n\n[\"mark\", \"2\", \"2\"]  \nI'm marking the center to control key lines and create future winning chances.",
+  "execution_time": 12.004122200014535,
+  "timestamp": {
+    "$date": "2025-02-26T13:51:53.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1c830442f89fa0936c34"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "2"
+    ],
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "2"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "meta-llama/llama-3.3-70b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"2\"] \nI'm placing my symbol in this position to potentially create a row and limit my opponent's options, while also preparing to potentially block their winning lines.",
+  "execution_time": 3.352833200013265,
+  "timestamp": {
+    "$date": "2025-02-26T13:52:03.034Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1c9b0442f89fa0936c36"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ],
+    [
+      "mark",
+      "3",
+      "3"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"3\"]  \nI'm marking the bottom right corner to control the diagonal and prepare for potential future winning opportunities.",
+  "execution_time": 20.85578240000177,
+  "timestamp": {
+    "$date": "2025-02-26T13:52:27.438Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1ca10442f89fa0936c38"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "1"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "1",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "2",
+    "1"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "x",
+  "model": "meta-llama/llama-3.3-70b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"2\", \"1\"] \nI'm marking this cell to potentially create a row and also prepare to block a possible winning line for my opponent, while also considering the diagonal and column possibilities.",
+  "execution_time": 3.1714680999866687,
+  "timestamp": {
+    "$date": "2025-02-26T13:52:33.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1cd00442f89fa0936c3a"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "1",
+      "3"
+    ],
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "control",
+      "x"
+    ]
+  ],
+  "move": [
+    "mark",
+    "1",
+    "3"
+  ],
+  "valid": 1,
+  "win": 0,
+  "player": "o",
+  "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"1\", \"3\"]  \nI'm marking the top right corner to block my opponent's potential winning line in the third column and to prepare for possible future moves.",
+  "execution_time": 42.74403760000132,
+  "timestamp": {
+    "$date": "2025-02-26T13:53:20.866Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1cda0442f89fa0936c3c"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "1"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 1,
+  "win": 1,
+  "player": "x",
+  "model": "meta-llama/llama-3.3-70b-instruct:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\", \"3\", \"1\"] \nI'm marking the bottom left corner to prepare for a potential win, block my opponent's possible winning line in the first column, and limit their future moves, I win.",
+  "execution_time": 5.807827400043607,
+  "timestamp": {
+    "$date": "2025-02-26T13:53:30.319Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bf1cef0442f89fa0936c3e"
+  },
+  "id_match": "c0afd7db-f448-11ef-9769-283a4d4a60c6",
+  "legalMoves": [
+    [
+      "mark",
+      "2",
+      "3"
+    ],
+    [
+      "mark",
+      "3",
+      "2"
+    ]
+  ],
+  "board": [
+    [
+      "cell",
+      "2",
+      "3",
+      "b"
+    ],
+    [
+      "cell",
+      "3",
+      "2",
+      "b"
+    ],
+    [
+      "cell",
+      "1",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "2",
+      "2",
+      "o"
+    ],
+    [
+      "cell",
+      "1",
+      "2",
+      "x"
+    ],
+    [
+      "cell",
+      "3",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "2",
+      "1",
+      "x"
+    ],
+    [
+      "cell",
+      "1",
+      "3",
+      "o"
+    ],
+    [
+      "cell",
+      "3",
+      "1",
+      "x"
+    ],
+    [
+      "control",
+      "o"
+    ]
+  ],
+  "move": [
+    "mark",
+    "3",
+    "1"
+  ],
+  "valid": 0,
+  "win": 1,
+  "player": "o",
+  "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+  "game": "tictactoe",
+  "reason": "[\"mark\",\"3\",\"1\"]  \nI'm marking this cell to complete the first column with my symbols, which means I win the game!",
+  "execution_time": 17.024413499981165,
+  "timestamp": {
+    "$date": "2025-02-26T13:53:51.549Z"
+  }
+}]
