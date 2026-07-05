@@ -1,102 +1,114 @@
-# Diseño de una Rúbrica para la Evaluación de Jugadas por LLMs
- 
-Este repositorio contiene un sistema de evaluación para modelos de lenguaje (LLMs) aplicados a decisiones en el juego **Tres en Raya**. A través de una rúbrica de 7 dimensiones, se analizan los turnos generados por distintos modelos, evaluadas por sistemas como **DeepSeek** y **Gemini**.
+# Design of a Rubric to Evaluate LLM Interaction Performance in Board Games
+An automated Python and R data engineering pipeline designed to benchmark, parse, and evaluate strategic reasoning, factuality, and rule compliance in frontier Large Language Models (LLMs) executing sequential actions within board game environments.
 
-## 📋 Objetivo
-Evaluar la calidad de los movimientos generados por LLMs en partidas de Tic-Tac-Toe, utilizando una rúbrica detallada que considera tanto el cumplimiento de reglas como la calidad explicativa.
+---
 
-<h2>🧠 Rúbrica de Evaluación por Dimensión</h2>
+## Technical Authorship & Project Scope
+*   **Core Engineering & Architecture:** Designed and implemented 100% of the software architecture, Python data pipelines, error-handling mechanisms, and R analytical scripts.
+*   **Prompt Engineering & Rubric Design:** Individually conceptualized, tested, and deployed the advanced Few-Shot Prompting strategies, strict technical role constraints, and JSON payload structures used to govern the automated model evaluators based on a custom 7-dimensional framework.
+*   **Data Source:** Developed the data pipelines to consume, parse, and clean an external pre-existing tournament gameplay dataset, transforming raw multi-turn logs into structured evaluation environments.
 
-<p>Cada jugada fue evaluada en siete dimensiones, con niveles de desempeño del 1 (Deficiente) al 3 (Alto):</p>
+---
 
-<table style="width:100%; border-collapse: collapse; font-size: 14px;">
-  <thead style="background-color: #003366; color: white;">
-    <tr>
-      <th style="padding: 10px; border: 1px solid #ccc;">Dimensión</th>
-      <th style="padding: 10px; border: 1px solid #ccc;">Nivel 1 – Deficiente</th>
-      <th style="padding: 10px; border: 1px solid #ccc;">Nivel 2 – Aceptable</th>
-      <th style="padding: 10px; border: 1px solid #ccc;">Nivel 3 – Alto</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ccc;">Comprensión de Reglas</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Viola reglas básicas: casilla ocupada o fuera del tablero.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Cumple reglas básicas, pero omite situaciones menos evidentes.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Siempre movimientos legales, respeta todas las reglas del turno.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ccc;">Validez y Legalidad</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Movimiento inválido o ilegal (fuera de límites).</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Movimiento válido, sin análisis profundo.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Movimiento válido y elegido tras un análisis completo del tablero.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ccc;">Razonamiento Estratégico</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Acción sin lógica, aleatoria o contraproducente.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Intención estratégica simple (bloquear/avanzar), sin anticipación.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Justificación clara y anticipada, maximiza chances de ganar.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ccc;">Factualidad</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Explicación incorrecta o no relacionada con el tablero real.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Justificación generalmente correcta, con imprecisiones menores.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Explicación precisa, basada en hechos concretos del tablero.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ccc;">Coherencia Explicativa</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Explicación confusa o contradictoria.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Explicación clara pero superficial.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Explicación lógica, completa y alineada con el movimiento.</td>
-    </tr>
-    <tr style="background-color:#f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ccc;">Claridad Lingüística</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Lenguaje poco claro o con errores graves.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Lenguaje claro con pequeños errores.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Lenguaje preciso, gramaticalmente correcto y fácil de entender.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ccc;">Adaptabilidad</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Ignora el cambio o jugada previa del oponente.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Se adapta de forma básica o tardía.</td>
-      <td style="padding: 10px; border: 1px solid #ccc;">Se adapta rápidamente y ajusta su estrategia eficazmente.</td>
-    </tr>
-  </tbody>
-</table>
+## System Architecture & Data Flow
 
-## ⚙️ Contenido del Repositorio
-📁 1. Dataset (Preprocesamiento)
-- Conversión de datos: Unifica múltiples archivos .json en un único archivo .csv.
-- Limpieza: Elimina comillas, espacios y errores de formato.
-- Ejemplos (ejemplos.csv): Sirve como few-shot prompt de referencia en la evaluación.
+```mermaid
+graph TD
+    A[Múltiples Archivos JSON Crudos del Torneo] -->|1. Script de Preprocesamiento Python| B[Un solo Archivo CSV Limpio y Unificado]
+    
+    subgraph Módulo de Construcción del Prompt Python
+        B --> D[Turnos a Evaluar convertidos a JSON]
+        C1[Instrucciones del Prompt Experto Diseñado] --> E[Prompt Final Unificado]
+        C2[Contexto de Ejemplos Few-Shot ejemplo.csv] --> E
+        D --> E
+    end
 
-🤖 2. Evaluadores (Generación de Puntuaciones)
-- Evaluador Gemini 
-- Evaluador DeepSeek 
+    E -->|2. Envío de Payload por Batches con Control de Errores 429| F[Evaluadores Automáticos APIs]
+    F -->|Requests POST con Exponential Backoff| G(API de Google Gemini)
+    F -->|Requests POST con Exponential Backoff| H(API de OpenRouter / DeepSeek R1)
+    
+    G -->|Persistencia de Datos en Lotes sin Duplicados| I[Archivo Final de Puntuaciones Estructuradas .csv / .xlsx]
+    H -->|Persistencia de Datos en Lotes sin Duplicados| I
+    
+    I -->|3. Scripts de Análisis Estadístico en Python| J[Cálculo de Promedios, Rankings y Clasificación de Jugadas Válidas]
+    I -->|4. Scripts de Visualización Gráfica en R| K[Generación de Gráficos Analíticos con ggplot2 y tidyverse]
+```
 
-Ambos evaluadores generan puntuaciones para cada jugada utilizando prompts estructurados junto con ejemplos (few-shot) como referencia. Analizan el estado del tablero, el movimiento realizado y la explicación proporcionada para asignar una calificación en cada dimensión de la rúbrica.
+---
 
-🧪 3. Scripts de Análisis (.py)
-Scripts en Python para el preprocesamiento y análisis de resultados:
-- Promedios por dimensión y por modelo.
-- Clasificación de jugadas válidas e inválidas.
-- Comparaciones entre evaluadores.
-- Ranking general por desempeño.
+## Repository Pipeline Architecture
 
-📉 4. Visualización en R
-Scripts desarrollados en RStudio para generar gráficos analíticos:
-- Tiempo de ejecución promedio por modelo.
-- Promedios por dimensión (según modelo y evaluador).
-- Promedio de movimientos válidos e inválidos.
-- Los 3 Mejores y Peores modelos evaluados por DeepSeek y Gemini.
+### 1. Dataset Preprocessing Pipeline
+*   **Data Normalization:** Automated Python workflow that aggregates and parses multi-file raw JSON tournament logs into a unified, clean tabular CSV format.
+*   **Data Cleansing:** Sanitizes whitespace, strips formatting anomalies, and structures explicit turn-by-turn state tracking.
+*   **Context Engineering:** Structures reference datasets (`ejemplos.csv`) utilized for target Few-Shot Prompting injections during evaluation.
 
-📂 5. Resultados y Recursos
-- Archivos .csv y .xlsx exportados.
-- Resúmenes por dimensión y modelo.
-- Gráficos listos para informes o presentaciones.
-- Datos ya procesados para carga directa.
+### 2. Automated AI Evaluators (Gemini & DeepSeek)
+*   **Programmatic Consumption:** Native integration of Google Gemini-2.0-Flash (`v1beta`) and OpenRouter (`deepseek/deepseek-r1:free`) APIs to act as automated metrics judges.
+*   **Rate-Limit Resilience:** Implemented programmatic exponential backoff retry logic to gracefully handle HTTP 429 rate limits, preventing data loss during batch processing.
+*   **Evaluation Engine:** Injects JSON-formatted board states, turn actions, and custom-engineered prompt structures into the model context to generate structured scoring across 7 dimensions.
 
-✅ 6. Requisitos
-- 🐍 Python: pandas, requests, etc.
-- 📊 R / RStudio: tidyverse, ggplot2, readxl, etc.
-- 🔑 OpenRouter/GoogleCloud: Claves API (para acceso a modelos LLM como Gemini y DeepSeek)
+### 3. Analytical Python Engines
+*   Computes exact arithmetic averages grouped by dimension, evaluator, and target model.
+*   Executes automated filtering to categorize valid vs. illegal board movements.
+*   Performs structural cross-evaluator analysis to benchmark scoring alignment and identify evaluation model biases.
+*   **Idempotency & Session Persistence:** Parses structural state records via unique key generation (`id_match_timestamp`) to dynamically bypass already processed matches and resume failed batch cycles without data duplication.
+
+### 4. RStudio Statistical Visualization
+*   **Tidyverse Pipeline:** Advanced data manipulation and reshaping scripts using R tidyverse.
+*   **ggplot2 Analytics:** Generates visual representations of average response latency per target model, performance distribution profiles mapped across all 7 evaluation dimensions, and comparative Top 3 Best vs. Worst performing architectures under Gemini and DeepSeek criteria.
+
+---
+
+## Core Implementation Snippets
+
+### Exponential Backoff Retry Logic (API Resilience Layer)
+The pipeline manages HTTP 429 constraints natively by executing an automated retry loop with progressive waiting periods to guarantee asynchronous data ingestion:
+
+```python
+# Programmatic implementation of the rate-limit handler
+backoff = initial_backoff
+for attempt in range(1, max_retries + 1):
+    response = requests.post(API_URL, headers=HEADERS, json=payload)
+    if response.status_code == 429:
+        print(f"Rate limit (429). Waiting {backoff}s before retry ({attempt}/{max_retries})...")
+        time.sleep(backoff)
+        backoff *= 2  # Exponential backoff scaling
+        continue
+    if response.status_code != 200:
+        print("Response error:", response.status_code, response.text)
+        break
+    return response.json()
+```
+
+---
+
+## 7-Dimensional Evaluation Rubric Framework
+The evaluation architecture scores prompt-response interactions on a normalized scale from 1 (Deficient) to 3 (High) across seven independent metrics:
+
+| Dimension | Level 1 – Deficient | Level 2 – Acceptable | Level 3 – High |
+| :--- | :--- | :--- | :--- |
+| **Rule Comprehension** | Violates fundamental rules (e.g., target cell occupied or out of bounds). | Adheres to core layout rules but fails minor edge-case logic. | Executes legal actions; consistently adheres to game rules. |
+| **Validity & Legality** | Move is invalid or fundamentally out of game boundary constraints. | Move is mathematically valid but lacks deep positional value. | Move is completely valid and backed by deep operational board parsing. |
+| **Strategic Reasoning** | Actions are chaotic, random, or counterproductive to the win condition. | Displays simple, reactive strategies (e.g., direct block/attack) without foresight. | Displays predictive foresight, maximizing win probability or defensive lockouts. |
+| **Factuality** | Explanation contains hallucinations or misrepresents the current board state. | Explanation is structurally correct but exhibits minor factual imprecision. | Text output is completely factual and precisely mirrors the layout array. |
+| **Explanatory Coherence**| Model reasoning is disjointed, chaotic, or explicitly contradicts the chosen action. | Explanation is clear but stays superficial to the operational choice. | Logic flow is coherent, comprehensive, and tightly coupled with the executed move. |
+| **Linguistic Clarity** | Output contains breaking structural typos or severely flawed syntax. | Syntax is understandable with minor stylistic or grammatical anomalies. | Language is precise, grammatical, and easy to interpret by automated parsers. |
+| **Adaptability** | Completely ignores the opponent's previous move or recent board state shifts. | Adapts reactively or late to changing board dynamics. | Optimizes strategy on the fly, actively responding to the opponent's strategy shifts. |
+
+---
+
+## Dependencies & Prerequisites
+
+### Python Environment
+*   `Python 3.x`
+*   `pandas`
+*   `requests`
+
+### R Environment
+*   `RStudio`
+*   `tidyverse` (including `ggplot2`, `dplyr`, `readr`)
+*   `readxl`
+
+### Authentication Requirements
+*   Valid API Credentials for Google Cloud (Gemini Engine) and OpenRouter (DeepSeek R1 Engine) configured via local environment variables.
